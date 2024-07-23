@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
-
+import emailjs from "emailjs-com";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -36,16 +35,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_6y5vft7',
-        'template_5g175sf',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Aarti Rathi",
+          to_name: "Tek Chand Sharma",
           from_email: form.email,
-          to_email: "aarti.rathi1710@gmail.com",
+          to_email: "tekchandsharmabusiness@gmail.com",
           message: form.message,
         },
-        'FMQ4a1hK5NSAkumfj',
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -68,9 +67,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
@@ -78,7 +75,8 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
 
-      <motion.div whileInView={{ opacity: 1 , transform : 'none'}}
+      <motion.div
+        whileInView={{ opacity: 1, transform: 'none' }}
         variants={slideIn("right", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
@@ -123,8 +121,6 @@ const Contact = () => {
               className='bg-tertiary py-3 px-3 placeholder:text-secondary text-white rounded-lg border-none font-medium'
             />
           </label>
-
-          
           <button
             type='submit'
             className='bg-tertiary py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
@@ -136,12 +132,14 @@ const Contact = () => {
         <div className="mt-5 contact__options">
           <article className="contact__option">
             <MdEmail />
-            <a href="mailto:aarti.rathi1710@gmail.com" target="_blank" className="blue-text-gradient">aarti.rathi1710@gmail.com</a>
+            <a href="mailto:tekchandsharmabusiness@gmail.com" target="_blank" className="blue-text-gradient">
+              tekchandsharmabusiness@gmail.com
+            </a>
           </article>
           <article className="contact__option">
             <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
-              +91 7040031669
+            <a href="https://api.whatsapp.com/send/?phone=917503586034&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+              +91 7503586034
             </a>
           </article>
         </div>

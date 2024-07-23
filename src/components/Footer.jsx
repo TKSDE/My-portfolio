@@ -10,7 +10,7 @@ const Footer = () => {
           &#x3c;&#47;&#x3e; with ❤️ by
           <a href="https://shinchancode.github.io/3d-react-portfolio/" target="_blank">
             {" "}
-            Aarti Rathi
+            Tek Chand Sharma
           </a>
           😎
         </p>

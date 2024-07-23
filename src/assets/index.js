@@ -1,5 +1,5 @@
-import logo from "./arr.svg";
-import aarti from "./photo2.jpg";
+import logo from "./tks.svg";
+import tekchandsharma from "./photo2.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,7 +21,7 @@ import threejs from "./tech/threejs.svg";
 import holopin from "./holopin.png";
 import hf from "./hf.svg";
 import bny from "./bny.png";
-import clg from "./clg.png";
+import clg from "./clg.webp";
 import school from "./school.png";
 
 import crypto from "./project/crypto.jpg";
@@ -68,7 +68,7 @@ export {
   clg,
   school,
   crypto,
-  aarti,
+  tekchandsharma,
   oop,crud,dwld,onetomany,yml,
   trie,ds,cg,
   port_3d, jsp, chitchat, notes, react1,

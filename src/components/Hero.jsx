@@ -2,12 +2,13 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import {init} from 'ityped';
+// import React from 'react';
 import React , { useEffect , useRef} from "react";
 import {AiOutlineGithub } from "react-icons/ai";
 import {ImLinkedin} from "react-icons/im";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {BiLinkAlt} from "react-icons/bi";
-import {aarti} from "../assets";
+import {tekchandsharma} from "../assets";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
 
         <div className="head2">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hii there, I'm <p className='name text-[#915EFF]'>Aarti Rathi</p>
+            Hii there, I'm <p className='name text-[#915EFF]'>Tek Chand Sharma</p>
           </h1>
           <h3>
             <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>
@@ -40,19 +41,19 @@ const Hero = () => {
         
         <div className="absolute link1">        
         <a
-          href="https://github.com/shinchancode" target="_blank">
+          href="https://github.com/TKSDE" target="_blank">
           <AiOutlineGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
+          href="https://www.linkedin.com/in/tek-chand-sharma/" target="_blank">
           <ImLinkedin />
         </a>
-        <a
+        {/* <a
           href="https://www.instagram.com/aarti.rathiii" target="_blank">
           <AiOutlineInstagram />
-        </a>
+        </a> */}
         <a
-          href="https://linktr.ee/rathi17" target="_blank">
+          href="https://linktr.ee/tek_chand_sharma" target="_blank">
           <BiLinkAlt />
         </a>
 
@@ -61,7 +62,7 @@ const Hero = () => {
       </div>
       </div>
       <div className="imgcontainer1 absolute violet-gradient">
-        <img src={aarti} alt="" className="object-contain"/>
+        <img src={tekchandsharma} alt="Tek Chand Sharma" className="object-contain"/>
       </div>
       </div>
 

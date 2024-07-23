@@ -10,27 +10,27 @@ import {
 
   const profiles = [
     {
-      link: "https://auth.geeksforgeeks.org/user/aarti_rathi",
+      link: "https://www.geeksforgeeks.org/user/tekchandkufih9/",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
     },
     {
-      link: "https://www.coursera.org/account/accomplishments/specialization/7V2SFZ9YWWRL",
+      link: "https://www.coursera.org/account/accomplishments/specialization/",
       icon: "https://img.icons8.com/fluency/344/google-cloud.png",
     },
     {
-      link: "https://www.qwiklabs.com/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
+      link: "https://www.cloudskillsboost.google/public_profiles/1a4985a0-ad31-4e77-8dab-cea6e2850a85",
       icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-qwiklabs-provides-real-cloud-environments-that-help-developers-logo-color-tal-revivo.png",
     },
     {
-      link: "https://www.hackerrank.com/_shinchancode",
+      link: "https://www.hackerrank.com/profile/TKSDE",
       icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
     },
     {
-      link:"https://dev.to/shinchancode",
+      link:"https://dev.to/tksde",
       icon: hf,
     },
     {
-      link:"https://www.holopin.io/@shinchancode#badges",
+      link:"https://www.holopin.io/@tekchandkumarsharma#",
       icon: holopin,
     },
   ];
