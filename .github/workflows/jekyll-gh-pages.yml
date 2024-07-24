@@ -35,7 +35,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'  # Update this path to where your build output is
+          path: './build'  # Ensure this matches your build directory
 
   deploy:
     runs-on: ubuntu-latest
